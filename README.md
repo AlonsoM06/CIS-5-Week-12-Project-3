@@ -57,7 +57,9 @@ Student at index i needs to come to office hours.
 5. `officeHours` prints one line per score under 60, and writes the line count through `int*` when the pointer is not `nullptr`.
 6. `main` calls the three functions. The `Failing` count and `Office hours` are the same number.
 7. In the README, write a short explanation in your own words. Name the three functions. Say what the references change in `main`, what the pointer writes, what a `nullptr` skips, and why `average` returns a `double`. Under that paragraph, paste the run you actually got.
-   // The reference in our code helps change countGrades a, b, c, d, and failing which all = 0. for example, int &a is the same as int a, what happens to &a also happens to a.
+
+
+    // The reference in our code helps change countGrades a, b, c, d, and failing which all = 0. for example, int &a is the same as int a, what happens to &a also happens to a.
    // The pointer *failingcount in officehours stores the address of &lines in our main. So the failing students = 20, &lines will = 20.
    // nullptr skips any invalid arrays pointers so it doesn't fill random stuff.
    // The average returns a double because we declared it as double meaning allowed decimal points. we take the sum * 1.0/n to give us average.
